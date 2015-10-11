@@ -1,6 +1,7 @@
 "use strict";
+let paper = require("paper");
 
-setup = function() {
+let setup = function(paper) {
   let canvas = document.getElementById('my_canvas');
   paper.setup(canvas);
   let path = new paper.Path();
@@ -11,4 +12,4 @@ setup = function() {
   paper.view.draw();
 }
 
-window.onload = setup;
+window.onload = setup.bind(null, paper);

@@ -17,17 +17,18 @@
   },
   "homepage": "https://github.com/Peregrine42/paper-mtg#readme",
   "dependencies": {
+    "debowerify": "^1.3.1",
     "express": "*",
     "request": "*"
   },
   "devDependencies": {
-    "babelify": "*",
-    "karma": "*",
-    "karma-browserify": "*",
-    "karma-mocha": "*",
-    "karma-phantomjs2-launcher": "*",
-    "mocha": "*",
-    "supertest": "*",
-    "watchify": "*"
+    "babelify": "6.3.0",
+    "karma": "0.13.10",
+    "karma-browserify": "4.4.0",
+    "karma-mocha": "0.2.0",
+    "karma-phantomjs2-launcher": "0.3.2",
+    "mocha": "2.3.3",
+    "supertest": "1.1.0",
+    "watchify": "3.4.0"
   }
 }
