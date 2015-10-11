@@ -1,0 +1,34 @@
+{
+  "name": "paper-mtg",
+  "version": "0.0.1",
+  "description": "making an mtg card table",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start config/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peregrine42/paper-mtg.git"
+  },
+  "author": "Duncan Fermor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Peregrine42/paper-mtg/issues"
+  },
+  "homepage": "https://github.com/Peregrine42/paper-mtg#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.64.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "karma": "^0.13.10",
+    "karma-browserify": "^4.4.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs2-launcher": "^0.3.2",
+    "mocha": "^2.3.3",
+    "supertest": "^1.1.0",
+    "watchify": "^3.4.0"
+  },
+}
